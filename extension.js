@@ -35,7 +35,7 @@
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
               #API.sendChat("http://i.imgur.com/wZSVKQF.jpg");
-              API.chatLog("http://i.imgur.com/wZSVKQF.jpg");
+              return API.chatLog("http://i.imgur.com/wZSVKQF.jpg");
             }
           }
         };
