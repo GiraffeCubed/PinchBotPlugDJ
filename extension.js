@@ -33,7 +33,7 @@
             if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
-              API.sendChat("https://goo.gl/hVoebP");
+              API.sendChat("http://i.imgur.com/wZSVKQF.jpg");
             }
           }
         };
