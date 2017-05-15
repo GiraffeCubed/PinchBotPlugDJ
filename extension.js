@@ -25,6 +25,7 @@
         }
 
         // Example code for a bot command:
+        var jam = ['http://i.imgur.com/wZSVKQF.jpg']';
         bot.commands.jamCommand = {
           command: 'jam',  // The command to be called. With the standard command literal this would be: !bacon
           rank: 'user', // Minimum user permission to use the command
@@ -33,7 +34,9 @@
             if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
-              API.sendChat("http://i.imgur.com/wZSVKQF.jpg");
+              #API.sendChat("http://i.imgur.com/wZSVKQF.jpg");
+              API.sendChat("/me T http://i.imgur.com/wZSVKQF.jpg");
+              window.bot.chatUtilities.chat.push(jam[]);
             }
           }
         };
