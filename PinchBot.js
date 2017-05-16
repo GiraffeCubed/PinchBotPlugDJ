@@ -239,9 +239,9 @@
         status: false,
         name: "PinchBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://cdn.rawgit.com/GiraffeCubed/PinchbotPlugDJ/master/PinchBot.js",
         cmdLink: "https://cdn.rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/commands.md",
-        chatLink: "http://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
+        chatLink: "http://cdn.rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -249,8 +249,8 @@
         settings: {
             botName: "PinchBot",
             language: "english",
-            chatLink: "http://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
-            scriptLink: "https://github.com/GiraffeCubed/PinchBotPlugDJ",
+            chatLink: "http://cdn.rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
+            scriptLink: "https://cdn.rawgit.com/GiraffeCubed/PinchbotPlugDJ/master/PinchBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
