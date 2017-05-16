@@ -241,7 +241,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "https://cdn.rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/commands.md",
-        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+        chatLink: "http://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -249,7 +249,7 @@
         settings: {
             botName: "PinchBot",
             language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+            chatLink: "http://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/lang/en.json",
             scriptLink: "https://github.com/GiraffeCubed/PinchBotPlugDJ",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
@@ -308,9 +308,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/GiraffeCubed/PinchBotPlugDJ/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
